@@ -50,7 +50,7 @@ const Product = () => {
   }, [count]);
 
   return (
-    <div className="sm:w-[90%] w-full mt-16 sm:mx-auto sm:flex-row flex flex-col">
+    <div className="sm:w-[90%] w-full sm:mt-16 sm:mx-auto sm:flex-row flex flex-col">
       <div className="sm:basis-[40%] w-full">
         <img
           src={productImage}
