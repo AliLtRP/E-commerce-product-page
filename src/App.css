@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+* {
+  padding: 0%;
+}
+
+body {
+  padding: 2rem;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
