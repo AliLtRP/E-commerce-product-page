@@ -259,7 +259,7 @@ const Product = () => {
           <p className="text-[#68707d] text-sm font-bold pt-6 sm:pt-0">
             SNEAKER COMPANY
           </p>
-          <p className="sm:pt-4 pt-3 sm:text-[42px] text-3xl leading-tight font-bold">
+          <p className="sm:pt-4 pt-3 sm:text-[42px] text-3xl leading-tight font-bold text-black">
             Fall Limited Edition Sneakers
           </p>
         </div>
@@ -269,7 +269,7 @@ const Product = () => {
           nisi!
         </p>
         <div className="flex justify-between sm:block">
-          <p className="font-bold text-3xl flex items-center gap-4">
+          <p className="font-bold text-3xl flex items-center gap-4 text-black">
             $125.00
             <span className="h-full bg-black text-white font-bold text-sm px-2 py-1 rounded-md">
               50%
@@ -285,7 +285,7 @@ const Product = () => {
               className=" active:bg-gray-300 active:rounded-full p-2"
               onClick={() => handleProductNumber(productNumber - 1)}
             />
-            <p className="font-bold">{productNumber}</p>
+            <p className="font-bold text-black pt-1">{productNumber}</p>
             <img
               src={plus}
               alt="plus"

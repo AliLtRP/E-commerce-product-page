@@ -120,7 +120,11 @@ const Navbar = () => {
             ) : (
               ""
             )}
-            <IoCartOutline size={25} onClick={() => setShowCart(!showCart)} />
+            <IoCartOutline
+              size={25}
+              color="black"
+              onClick={() => setShowCart(!showCart)}
+            />
             <div
               className={`${showCart ? "block" : "hidden"} absolute z-10 
                right-[-90px] sm:right-[-130px]
